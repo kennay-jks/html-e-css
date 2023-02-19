@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: #131219;
+    font: normal normal 1em monospace,'Roboto' ,sans-serif;
+    color: #ffffff;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace,'Roboto' ,sans-serif;
+    background-color: #0c0c14;
+    height: 55px;
+    box-shadow: 0px 1px 3px #0000005d;
+}
+nav > a{
+    text-decoration: none;
+    color: #fff;
+}
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace,'Roboto' ,sans-serif;
+}
+li > a:hover{
+    color: #697377;
+    transition: 0.3s ease;
+}
+.logo{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list > li{
+    letter-spacing: 3px;
+    margin: 0px 0px 0px 32px;
+}
+/* capa do anime */
+.capa > img{
+    width: 160px;
+    margin: 70px 0px 0px 150px;
+    box-shadow: 2px 1px 3px #0000007c;
+    border-radius: 6px;
+}
+/* informações do anime */
+#info{
+    width: 0px;
+    margin: 70px 0px 0px 0px;
+}
+/* informações do anime */
+#info > p{
+    font-family: monospace, 'Roboto', sans-serif;
+    width: 370px;
+    padding: 2px;
+    margin: 0px 0px 0px 15px;
+}
+/* alinhamento da capa com as informações */
+.capa{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 20px;
+}
+/* h2 informando a temporada */
+#temporada{
+    margin: 0px 13px 30px 23px;
+}
+/* h2 informando a temporada (letras) */
+#temporada > h2{
+    font-family: monospace, 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    width: 100px;
+    margin: 5px 0px 5px 180px;
+}
+/* fundo da lista de eps */
+.ep{
+    background-color: #1b1924;
+    height: 660px;
+    width: 1000px;
+    margin: auto auto 50px auto;
+    box-shadow: 2px 1px 3px #0000007a;
+    border-radius: 10px;
+    border: 1px solid #616a9c;
+    padding: 20px 10px 0px 10px;
+}
+/* letras da lista de eps */
+.ep > a{
+    text-decoration: none;
+    color: #fff;
+    width: 950px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 1.35em;
+    font-weight: lighter;
+    border-bottom-color: #0d0c116e;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 10px 10px 10px 50px;
+    display: flex;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+/* letras da lista de eps */
+.ep > a:hover{
+    color: #697377;
+}
+/* min dos eps */
+.min{
+    border-left-color: #0d0c116e;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 272px;
+}
+.lista{
+    margin: 0px 0px 0px 230px;
+}
+/* alinhamento do video */
+.player{
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 250px;
+}
+/* avançar para o proximo video */
+#proximo{
+    text-decoration: none;
+    text-align: center;
+    height: 24px;
+    width: 80px;
+    font-size: 1.15em;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 7px;
+    margin: 0px 0px 0px 10px;
+    box-shadow: 1px 1px 3px #0000007e;
+    transition: 0.3s ease;
+}
+/* ir para a lista de eps */
+#todos{
+    text-decoration: none;
+    text-align: center;
+    height: 24px;
+    width: 15px;
+    font-size: 1.25em;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 7px;
+    margin: 0px 0px 0px 10px;
+    box-shadow: 1px 1px 3px #0000007e;
+    transition: 0.3s ease;
+}
+/* voltar para o video anterior */
+#anterior{
+    text-decoration: none;
+    text-align: center;
+    height: 24px;
+    width: 80px;
+    font-size: 1.15em;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 7px;
+    margin: 0px 0px 0px 820px;
+    box-shadow: 1px 1px 3px #0000007e;
+    transition: 0.3s ease;
+}
+#anterior:hover{
+    color: #697377;
+}
+#todos:hover{
+    color: #697377;
+}
+#proximo:hover{
+    color: #697377;
+}
+/* alinhamento dos controles */
+#controles{
+    display: flex;
+}
+/* titulo do video */
+#titulo > h1{
+    width: 290px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    font-weight: lighter;
+    margin: 0px 0px 0px 280px;
+}
+#titulo{
+    margin: 20px 0px 0px 0px;
+    width: 0px;
+}
+#alinhamento{
+    display: flex;
+    align-items: center;
+}
+.bio > h1{
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 2em;
+    padding: 20px 0px 0px 0px;
+}
+/* resumo dos personagens */
+.bio > h2{
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1.75em;
+    margin: 50px 0px 0px 60px;
+}
+.resumo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: normal;
+}
+.resumo > p{
+    text-align: justify;
+    width: 1000px;
+    font-size: 1.05em;
+    margin: 20px 0px 0px 160px;
+}
+#violet{
+    color: #fdf6aa;
+}
+#claude{
+    color: #a73f63;
+}
+#gilbert{
+    color: #616a9c;
+}
+#Cattleya{
+    color: #697377;
+}
+#benedict{
+    color: #e4dc87;
+}
+#erica{
+    color: #cca579;
+}
+#iris{
+    color: #b3aa87;
+}
+.refer{
+    background-color: #0c0c14;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px -1px 3px #0000005d;
+    margin-top: 50px;
+}
+.refer > a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 2px;
+}
+.refer > a:hover{
+    color: #697377;
+}
+.obra{
+    display: flex;
+    text-align: justify;
+    width: 700px;
+    margin: 10px 0px 0px 350px;
+}
+.sinopse{
+    display: flex;
+    flex-direction: column;
+}
+/* trailer */
+iframe{
+    margin: 70px 0px 0px 420px;
+}
+.enredo{
+    text-align: justify;
+    width: 700px;
+    margin: 10px 0px 50px 350px;
+}
+.sinopse > h2{
+    font-weight: normal;
+    font-size: 1.50em;
+    border-bottom: 1px solid #697377;
+    padding: 0px 0px 0px 3px;
+    margin: 30px 300px 0px 350px;
+}
+#animation{
+    width: 400px;
+    margin: 20px 0px 0px 30px;
+}
+.kyoto > h2{
+    font-weight: normal;
+    font-size: 1.50em;
+    border-bottom: 1px solid #697377;
+    padding: 0px 0px 0px 3px;
+    margin: 30px 220px 0px 230px;
+}
+.his{
+    text-align: justify;
+    width: 880px;
+    margin: 10px 0px 0px 240px;
+}
+.block{
+    display: block;
+}
+.obras-ka > h2{
+    font-weight: normal;
+    font-size: 1.50em;
+    border-bottom: 1px solid #697377;
+    padding: 0px 0px 0px 3px;
+    margin: 30px 220px 0px 230px;
+}
+.obras-ka > a{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    font-size: 1.05em;
+    color: #d5f3ff;
+    text-decoration: none;
+    margin: 5px 220px 0px 240px;
+}
+.obras-ka > a:hover{
+    color: #696c77;
+}
+.obras-ka > p{
+    text-align: center;
+    width: 33px;
+    background-color: #a73f63;
+    font-size: 1.75em;
+    border: 1px solid #34383a;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 10px 0px 0px 228px;
+}

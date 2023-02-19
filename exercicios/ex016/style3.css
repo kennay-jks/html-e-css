@@ -1,0 +1,15 @@
+body{
+    background-color: #0F0F0F;
+    color: #ffffff;
+    font: normal 16px arial,verdana,sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'old london';
+    src: url('font/OldLondon.ttf') format('truetype'),
+    url('font/OldLondonAlternate.ttf') format('truetype'),
+    url('font/Olondon_.otf') format('opentype'),
+    url('font/Olondona.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* tipos de fromat()
+        - truetype (ttf)
+        - opentype (otf)
+        - embedded-opentype
+        - truetype-aat (apple advanced typography)
+        - svg
+    */
+}
+body{
+    font:normal normal 2em 'old london', arial, helvetica, sans-serif;
+}
