@@ -1,0 +1,113 @@
+:root{
+    --cor1: #0e0e16;
+    --cor2: #69DDFF;
+    --cor3: #FFD23F;
+    --cor4: #1b4f8a;
+    --cor5: #FF3A20;
+}
+body{
+    background-color: var(--cor1);
+    font: normal normal 1em monospace, sans-serif;
+    color: #fff;
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor3);
+    align-items: center;
+    height: 50px;
+}
+header a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.3em;
+}
+main{
+    max-width: 900px;
+    margin: 50px auto 0px auto;
+}
+section p{
+    max-width: 500px;
+    font-family: monospace, sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    padding: 0px 0px 20px 0px;
+    margin: auto;
+}
+section{
+    padding: 30px;
+    margin: 30px;
+}
+.letra{
+    background-color: #0e0e16ce;
+    max-width: 550px;
+    padding: 20px 10px 0px 10px;
+    margin: 50px auto 50px auto;
+    border-radius: 5px;
+}
+.letra p{
+    margin: auto;
+}
+#img1{
+    background-image: url(imagens/julhynha-toys.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 7px 15px #000000;
+    border-radius: 5px;
+}
+#img2{
+    background-image: url(imagens/street.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 7px 15px #000000;
+    border-radius: 5px;
+}
+.video{
+    padding-bottom: 59%;
+    position: relative;
+    margin: auto;
+}
+.video > iframe{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 85%;
+    height: 85%;
+}
+aside{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+aside a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+aside a:hover{
+    color: var(--cor3);
+}
+h1{
+    font-size: 1.5em;
+    font-family: monospace, sans-serif;
+
+}
+footer{
+    max-height: 60px;
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-top: 40px;
+}
+footer a{
+    padding: 0px 0px 0px 20px;
+}
+footer img{
+    max-width: 30px;
+    min-height: 15px;
+    margin: auto;
+}
