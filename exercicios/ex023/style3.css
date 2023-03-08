@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    height: 98vh;
+    background: #1f1f1f url(imagens/wallpaper004.jpg) center no-repeat fixed;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 5px;
+}
+main{
+    background-color: #1f1f1f;
+    width: 600px;
+    margin: auto auto 10px auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+iframe{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}

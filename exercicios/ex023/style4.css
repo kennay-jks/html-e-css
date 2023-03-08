@@ -1,0 +1,39 @@
+body{
+    background: #1d1d1d url(imagens/wallpaper004.jpg) center fixed;
+    color: #fff;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+main{
+    background-color: #1d1d1d;
+    max-width: 600px;
+    padding: 30px;
+    margin: auto;
+    border: 2px solid #2c9475;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px #0000006e;
+}
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+}
+iframe{
+    display: block;
+    max-width: 500px;
+    min-height: 400px;
+    margin: auto;
+    border: 2px solid #2c9475;
+}
+li{
+    list-style: none;
+}
+li a{
+    
+    text-decoration: none;
+    color: aqua;
+}
+li a:hover{
+    color: #2c7694;
+}
