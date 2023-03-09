@@ -1,0 +1,53 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: #1d1d1d url('../imagens/cidade.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+.cel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 471px;
+    width: 222px;
+    background: url(../imagens/galaxy.png) no-repeat center fixed;
+    background-size: 700px;
+}
+#tela{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    height: 452px;
+    width: 202px;
+    border-radius: 15px;
+}
+.social{
+    text-align: right;
+}
+.social img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px #00000088;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.social img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.849);
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 11px #000000a8;
+}
