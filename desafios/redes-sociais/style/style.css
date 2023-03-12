@@ -47,7 +47,7 @@ main{
     transition: 0.2s;
 }
 .social img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.849);
+    border: 2px solid #ffffffd8;
     transform: translate(-3px, -3px);
     box-shadow: 6px 6px 11px #000000a8;
 }
