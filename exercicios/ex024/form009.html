@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+        body{
+            background-color: #1d1d1d;
+        }
+        main{
+            position: relative;
+            max-width: 600px;
+            min-height: 500px;
+            padding: 30px;
+            margin: auto;
+            background-image: linear-gradient(360deg,#0237cac7,#0281cac7,#01ddb8c7,#00d873c7);
+            border: 1px solid #ffe600c7;
+            border-radius: 15px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.541);
+        }
+        form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input{
+            color: #000;
+        }
+        select, option, optgroup, textarea, #iprof, .bot{
+            background-color: #1d1d1d;
+            color: #fff;
+            padding: 5px;
+            border: none;
+        }
+        div{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="" method="post" autocomplete="on">
+            <div>
+                <label for="inum">Número: </label>
+                <input type="range" name="num" id="inum" min="0" max="10" oninput="val.innerHTML = Number(inum.value)">
+                <output id="val">5</output>
+            </div>
+            <div>
+                <input class="bot" type="submit" value="Enviar">
+                <input class="bot" type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+        body{
+            background-color: #1d1d1d;
+        }
+        main{
+            position: relative;
+            max-width: 600px;
+            min-height: 500px;
+            padding: 30px;
+            margin: auto;
+            background-image: linear-gradient(360deg,#0237cac7,#0281cac7,#01ddb8c7,#00d873c7);
+            border: 1px solid #ffe600c7;
+            border-radius: 15px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.541);
+        }
+        form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input{
+            color: #000;
+        }
+        select, option, optgroup, textarea, #iprof, .bot{
+            background-color: #1d1d1d;
+            color: #fff;
+            padding: 5px;
+            border: none;
+        }
+        div{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="" method="post" autocomplete="on">
+            <div>
+                <label for="iest">Estado: </label>
+                <select name="est" id="iest">
+                    <optgroup label="Sudeste">
+                        <option value="RJ">Rio De Janeiro</option>
+                        <option value="SP" selected>São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="RN">Rio Grande Do Norte</option>
+                        <option value="BH">Bahia</option>
+                        <option value="PB">Paráiba</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lst" placeholder="clique 2 vezes">
+                <datalist id="lst">
+                    <option value="ADM">Adiministrador</option>
+                    <option value="DEV">Desenvlvedor</option>
+                    <option value="CONT">Contabilista</option>
+                    <option value="PROF">Professor</option>
+                </datalist>
+            </div>
+            <div>
+                <label for="imsg">Mensagem: </label>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input class="bot" type="submit" value="Enviar">
+                <input class="bot" type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
