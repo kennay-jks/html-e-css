@@ -24,21 +24,24 @@ header h1{
     text-align: center;
 }
 nav{
+    display: flex;
     background: #111111;
     box-shadow: 2px 2px 4px #050505a8;
     padding: 10px;
+    justify-content: end;
 }
 ul, li{
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 li > a{
-    background: #292929;
+    background: #111111;
     text-decoration: none;
     letter-spacing: 1px;
-    border: 1px solid #292929;
+    border: 1px solid #111111;
     border-radius: 10px;
-    box-shadow: 1px 1px 3px #00000077;
+    box-shadow: 2px 2px 4px #00000080;
     padding: 7px;
     margin: 10px;
     transition: 0.4s;
@@ -46,6 +49,16 @@ li > a{
 li > a:hover{
     border:1px solid #9fc5e9;
     border-radius: 20px;
+}
+#mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+#mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
 }
 h1::selection, a::selection{
     color: #9f75f3;

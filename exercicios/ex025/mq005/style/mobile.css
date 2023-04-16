@@ -1,0 +1,33 @@
+.list{
+    display: none;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #111111;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-list li{
+    margin-left: 0;
+    opacity: 0;
+}
+#mobile-menu{
+    display: block;
+}
+li > a{
+    background: #111111;
+    border: 0px;
+    box-shadow: none;
+    transition: 0.2;
+}
+li > a:hover{
+    background: #111111;
+    border: 0px;
+    box-shadow: none;
+}
+li > a:active{
+    color: #9fc5e9;
+}

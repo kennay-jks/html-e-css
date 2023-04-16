@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="style/style.css" media="all">
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 2999px)">
 </head>
 <body>
     <header>
         <h1>Hello, world</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">Opição 1</a></li>
-            <li><a href="#">Opição 2</a></li>
-            <li><a href="#">Opição 3</a></li>
-            <li><a href="#">Opição 4</a></li>
-            <li><a href="#">Opição 5</a></li>
+        <div id="mobile-menu" onclick="clickMenu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>  
+        </div>
+        <ul class="list">
+            <li><a href="/">Opição 1</a></li>
+            <li><a href="/">Opição 2</a></li>
+            <li><a href="/">Opição 3</a></li>
+            <li><a href="/">Opição 4</a></li>
+            <li><a href="/">Opição 5</a></li>
         </ul>
     </nav>
     <main>
@@ -30,5 +36,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam iure harum itaque distinctio, eveniet accusamus totam exercitationem vel eius provident quod autem cumque ad tenetur repudiandae minima. Ducimus, ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum reiciendis laboriosam non voluptatem, maxime praesentium aliquam molestias, fuga architecto quibusdam iure velit? Fugiat enim sapiente quo ducimus ea, vitae nesciunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates corrupti error magni, suscipit veniam hic voluptatum, beatae dolore, sed consequatur sint unde modi cumque. In dolorum illum non. Cumque, illum?</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            list.mobile.display = 'block'
+        }
+    </script>
 </body>
 </html>
